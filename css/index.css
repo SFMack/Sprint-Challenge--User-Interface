@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CUSTOM STYLES */
+
+/* nav */
+#nav {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 5rem;
+}
+
+/* header */
+header {
+    margin-bottom: 1rem;
+}
+
+/* boxes */
+.middle-content #boxes div:nth-child(1) {
+    background: teal;
+}
+
+.middle-content #boxes div:nth-child(2) {
+    background: gold;
+}
+
+.middle-content #boxes div:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content #boxes div:nth-child(4) {
+    background: coral;
+}
+
+.middle-content #boxes div:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content #boxes div:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content #boxes div:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content #boxes div:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content #boxes div:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content #boxes div:nth-child(10) {
+    background: dodgerblue;
 }
