@@ -214,6 +214,14 @@ header {
     margin-bottom: 2rem;
 }
 
+/* contact */
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
 /* boxes */
 .middle-content #boxes div:nth-child(1) {
     background: teal;
